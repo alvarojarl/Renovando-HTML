@@ -1,0 +1,17 @@
+ul {
+    text-align: right;
+    margin:0%;        
+}
+
+#principal {
+    text-align:center;
+    color:rgb(0, 0, 0);
+}
+
+footer {
+    position: inherit;
+    margin-top: 100%;
+    text-align: center;
+    border-color: black;
+    border-top: ridge;
+}
