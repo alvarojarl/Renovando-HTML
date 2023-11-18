@@ -12,6 +12,21 @@ ul {
 #principal-inicial {
     text-align:center;
     color:rgb(0, 0, 0);
+    background-color: white;
+    width: 60%;
+    margin: 5% 20% 90% 20%;
+    border-radius: 20px;
+    border-color: black;
+    border-style: outset;
+    border-width: 1px;
+}
+
+.form {
+    margin:
+    0% 
+    0% 
+    0% 
+    0%;
 }
 
 footer {
@@ -21,3 +36,4 @@ footer {
     border-color: black;
     border-top: ridge;
 }
+
