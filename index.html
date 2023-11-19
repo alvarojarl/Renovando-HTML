@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <title>Aprendendo</title>
 </head>
+
 <body>
-    <ul>
-        <button>Cadastrar</button>
-        <input type="text" placeholder="Text Here">
-        <button>Search</button>
-    </ul>
-    <div id="principal-inicial">
-        <h1>Voltando ao jogo</h1>
-        <p>( ͡° ͜ʖ ͡°) right behind them ( ͡° ͜ʖ ͡°)</p>
-        <form class="form" name="signup" method="get" autocomplete="off" action="pagina.html">            
+    <header>
+        <fieldset class="cabeçalho">
+            <div class="cabeçalholeft">
+                <a href="index.html"><button>Pagina Inicial</button></a>
+                <a href="page01.html"><button>Pagina 1</button></a>
+            </div>
+            <div class="cabeçalhoright">
+                <a href="page02.html"><button>Cadastrar</button></a>
+                <input type="text" placeholder="Text Here">
+                <button>Search</button>
+            </div>
+        </fieldset>
+    </header>
+    <div class="alinhamento">
+
+    </div>
+    <div class="principal-inicial">
+        <h1>
+            Voltando ao jogo
+        </h1>
+        <p>
+            ( ͡° ͜ʖ ͡°) right behind them ( ͡° ͜ʖ ͡°)
+        </p>
+        <form onsubmit="" class="form" name="signup" method="get" autocomplete="off" action="pagina.html">
             <Subescreva-se>Subescreva-se</Subescreva-se></br>
-            <input type="text" placeholder="Nome" name="name"></br>
-            <input type="email" placeholder="e-mail" name="e-mail"></br>
+            <input type="text" placeholder="Nome*" name="name"></br>
+            <input type="email" placeholder="e-mail*" name="e-mail"></br>
             <input type="number" placeholder="Idade" name="age" min="0" max="130"><br>
-            <input type="password" placeholder="Senha" name="password"></br>
-            <button type="submit" >Send</button>
+            <input type="password" placeholder="Senha*" name="password"></br>
+            <button type="submit">Send</button><button type="reset">clear</button>
         </form>
     </div>
-    <footer> 
+    <footer>
         <p>
             <strong><i>Made by <a href="https://github.com/alvarojarl" target="_blank">Feijaonir</a></i></strong>
         </p>
     </footer>
 </body>
+
 </html>

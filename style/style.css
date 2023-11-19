@@ -1,32 +1,83 @@
 body {
-    background-image:url("../images/pexels-photo-6194837.jpeg");
+    background-image: url("../images/pexels-photo-6194837.jpeg");
     background-size: cover;
+    margin: 0;
+}
 
+.ajuste-cabeçalho fieldset {
+    border-radius: 10px;
+    margin: 10px 0;
+    border-color: #f8f8f8;
+}
+
+.alinhamento {
+    padding: 5% 0% 5% 0%;
+}
+
+header {
+    margin-top: 0%;
+}
+
+.row {
+    margin: 5px;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.cabeçalho {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    margin-left: 0%;
+}
+
+.cabeçalho label {
+    color: #f8f8f8;
+}
+
+.cabeçalholeft {
+    position: inherit;
+    width: 38%;
+    text-align: left;
+    padding: 2vw 0vw 1vw 1vw;
+    min-width: 40vw;
+    float: left;
+}
+
+.cabeçalhoright {
+    width: 38%;
+    text-align: right;
+    padding: 2vw 1vw 1vw 0vw;
+    min-width: 40vw;
+    float: right;
 }
 
 ul {
     text-align: right;
-    margin:0%;        
 }
 
-#principal-inicial {
-    text-align:center;
-    color:rgb(0, 0, 0);
+.principal-inicial {
+    text-align: center;
+    color: rgb(0, 0, 0);
     background-color: white;
     width: 60%;
-    margin: 5% 20% 90% 20%;
+    margin: 0 20% 90% 20%;
     border-radius: 20px;
     border-color: black;
     border-style: outset;
     border-width: 1px;
 }
 
+
+
 .form {
-    margin:
-    0% 
-    0% 
-    0% 
-    0%;
+    margin: 0% 0% 0% 0%;
 }
 
 footer {
@@ -37,3 +88,8 @@ footer {
     border-top: ridge;
 }
 
+aside {
+    margin-left: 0%;
+    border-style: dotted;
+    width: 30%;
+}
