@@ -1,3 +1,18 @@
+@font-face {
+    font-family: Ephesis-Regular;
+    src: url(../font/Ephesis-Regular.ttf);
+} 
+
+@font-face {
+    font-family: Lobster-Regular;
+    src: url(../font/Lobster-Regular.ttf);
+}
+
+* {
+    font-family: Lobster-Regular;
+    font-size: 1.3vw;
+}
+
 body {
     background-image: url("../images/pexels-photo-6194837.jpeg");
     background-size: cover;
@@ -11,7 +26,11 @@ body {
 }
 
 .alinhamento {
-    padding: 5% 0% 5% 0%;
+    padding: 6% 0% 6vw 0%;
+    width: 100%;
+    height: 10%;
+    margin-left: 0%;
+    margin-bottom: 5vw;
 }
 
 header {
@@ -19,17 +38,21 @@ header {
 }
 
 .row {
-    margin: 5px;
+    margin: 2vw;
 }
 
-label {
+.row label {
     width: 100px;
     text-align: right;
     display: inline-block;
-    padding-right: 5px;
+}
+
+.row input {
+    margin-left: 1vw;
 }
 
 .cabeçalho {
+    background: lightgrey;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -45,7 +68,7 @@ label {
     position: inherit;
     width: 38%;
     text-align: left;
-    padding: 2vw 0vw 1vw 1vw;
+    padding: 1vw 0vw 1vw 1vw;
     min-width: 40vw;
     float: left;
 }
@@ -53,9 +76,10 @@ label {
 .cabeçalhoright {
     width: 38%;
     text-align: right;
-    padding: 2vw 1vw 1vw 0vw;
+    padding: 1vw 1vw 1vw 0vw;
     min-width: 40vw;
     float: right;
+    margin-right: 2vw;
 }
 
 ul {
@@ -74,7 +98,13 @@ ul {
     border-width: 1px;
 }
 
+.loginBtn {
+    margin: 1vw;
+}
 
+.loginInp {
+    margin: 1vw;
+}
 
 .form {
     margin: 0% 0% 0% 0%;
