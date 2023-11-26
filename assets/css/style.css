@@ -14,9 +14,54 @@
 }
 
 body {
-    background-image: url("../images/pexels-photo-6194837.jpeg");
+    background-image: url("../images/grapes-553462.jpg");
     background-size: cover;
+    background-attachment: fixed;
+    position: relative;
     margin: 0;
+}
+
+.phoneNumber {
+    background: black;
+    margin: 0vw;
+}
+
+.phoneNumber p {
+    margin: 0;
+    color: white;
+}
+
+header {
+    background: linear-gradient(black,#4b204b, #59719D);
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    height: 6vw;
+    box-sizing: border-box;
+}
+
+.cabeçalho label {
+    color: #f8f8f8;
+}
+
+.cabeçalholeft,.cabeçalhoright {
+    margin-top: 1vw;
+}
+
+.cabeçalholeft {
+    width: 38vw;
+    text-align: left;
+    min-width: 40vw;
+    float: left;
+    margin-left: 2vw;
+}
+
+.cabeçalhoright {
+    width: 38vw;
+    text-align: right;
+    min-width: 40vw;
+    float: right;
+    margin-right: 2vw;
 }
 
 .ajuste-cabeçalho fieldset {
@@ -26,7 +71,7 @@ body {
 }
 
 .alinhamento {
-    padding: 6% 0% 6vw 0%;
+    padding: 6vw 0vw 6vw;
     width: 100%;
     height: 10%;
     margin-left: 0%;
@@ -51,51 +96,21 @@ header {
     margin-left: 1vw;
 }
 
-.cabeçalho {
-    background: lightgrey;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    height: 10%;
-    margin-left: 0%;
-}
-
-.cabeçalho label {
-    color: #f8f8f8;
-}
-
-.cabeçalholeft {
-    position: inherit;
-    width: 38%;
-    text-align: left;
-    padding: 1vw 0vw 1vw 1vw;
-    min-width: 40vw;
-    float: left;
-}
-
-.cabeçalhoright {
-    width: 38%;
-    text-align: right;
-    padding: 1vw 1vw 1vw 0vw;
-    min-width: 40vw;
-    float: right;
-    margin-right: 2vw;
-}
-
 ul {
     text-align: right;
 }
 
 .principal-inicial {
+    padding: 2vw;
     text-align: center;
     color: rgb(0, 0, 0);
     background-color: white;
     width: 60%;
-    margin: 0 20% 90% 20%;
-    border-radius: 20px;
+    margin: 0vw 0vw 25vw 20vw;
+    border-radius: 1vw;
     border-color: black;
     border-style: outset;
-    border-width: 1px;
+    border-width: 0.2vw;
 }
 
 .loginBtn {
@@ -107,19 +122,31 @@ ul {
 }
 
 .form {
-    margin: 0% 0% 0% 0%;
+    margin: 0vw 0vw 0vw 0vw;
+}
+
+.ifran {
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 2vw;
+}
+
+.ifran iframe {
+    width: 40vw;
+    height: 30vw;
+    border-radius: 0.4vw;
 }
 
 footer {
     position: inherit;
-    margin-top: 100%;
+    margin-top: 100vw;
     text-align: center;
     border-color: black;
     border-top: ridge;
 }
 
 aside {
-    margin-left: 0%;
+    margin-left: 0vw;
     border-style: dotted;
-    width: 30%;
+    width: 30vw;
 }

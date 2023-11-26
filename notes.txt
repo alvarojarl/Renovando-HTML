@@ -1,0 +1,51 @@
+para encontrar e alterar qualquer um que seja igual independente da posição == []
+
+exemplo [atributo] {}
+
+para encontrar e alterar qualquer um que tenha o valor especificado dentro []=""
+
+exemplo [atributo="valor"] {}
+
+para procurar o atributo com palavra exata ou separada por espaço
+
+[atributo~="valor"] {}
+
+semelhante só que com ifen
+
+[atributo|="valor"] {}
+
+seleciona o prefixo tem que ser o inicial
+
+[atributo^="www."]
+
+[atributo^="dot."]
+
+semelhante é o sufixo tem que ser o final
+
+[atributo$=".com"]
+
+[atributo$=".net"]
+
+para encontrar qualquer um que possua a mesma palavra
+
+[atributo*="bah"]
+
+-----------------------------------------------------
+
+para editar uma classe que tenha ambos os valores
+
+atributo.atributo {}   exemplo class="text teste"
+
+combinador filho >
+
+Fará com que o primeiro Elemento descrito seguido do atributo seja alterado
+
+combinador irmão adjacente +
+
+combinador irmão geral ~
+
+CSS Inline, Aplicado através da tag "style" do elemenjto; css interno no cabeçalho; externo arquivo separado e declarado no html
+
+140 cores pré-definidas.
+
+object-fit: (adicionando imagem a container e manuseando.)
