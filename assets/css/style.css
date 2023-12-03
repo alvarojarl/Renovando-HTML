@@ -1,3 +1,5 @@
+@import url(./reset.css);
+
 @font-face {
     font-family: Ephesis-Regular;
     src: url(../font/Ephesis-Regular.ttf);
