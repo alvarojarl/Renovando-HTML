@@ -40,26 +40,36 @@ header {
     box-sizing: border-box;
 }
 
+header button {
+    background-color: green;
+    border-width: 0.3vw;
+    border-color: darkgreen black;
+    border-radius: 3vw;
+}
+
+header input {
+    border-radius: 3vw;
+    border-width: 0.3vw;
+}
+
 .cabeçalho label {
     color: #f8f8f8;
 }
 
 .cabeçalholeft,.cabeçalhoright {
+    min-width: 38vw;
+    max-width: 40vw;
     margin-top: 1vw;
 }
 
 .cabeçalholeft {
-    width: 38vw;
     text-align: left;
-    min-width: 40vw;
     float: left;
     margin-left: 2vw;
 }
 
 .cabeçalhoright {
-    width: 38vw;
     text-align: right;
-    min-width: 40vw;
     float: right;
     margin-right: 2vw;
 }
@@ -107,10 +117,26 @@ ul {
     background-color: white;
     width: 60%;
     margin: 0vw 0vw 25vw 20vw;
-    border-radius: 1vw;
     border-color: black;
     border-style: outset;
     border-width: 0.2vw;
+    border-radius: 3vw;
+    background-image: url(../images/fieldgrape.jpg );
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+.principal-inicial button {
+    border-radius: 3vw;
+    background-color: white;
+    border-width: 0.3vw;
+    border-color: black;
+}
+
+.principal-inicial button:active {
+    border-color:white;
+    background-color: lightgray;
+    border-width: 0.3vw;
 }
 
 .loginBtn {
